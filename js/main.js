@@ -10,7 +10,7 @@ function ingClick() {
 	console.log(this.id);
 
 }
-/////I need practice a lot//////
+/////I need practice a lot///////
 objectButton.addEventListener("click", ingClick);
 
 })();
