@@ -1,0 +1,258 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font-family: monospace;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	font-size: 16px;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.hidden
+{
+display: none;
+}
+
+main 
+{
+	width: 960px;
+	padding: 0 10px 10px 10px;
+	margin: 0 auto;
+	border: thin dashed #333;
+}
+
+nav
+{
+width: 450px;
+margin-left:730px;
+}
+
+nav ul li
+{
+padding:15px;
+display: inline-block;
+}
+
+nav ul li a
+{
+    font-size: 15px;
+    color: #27AE60;  
+}
+
+
+.about
+{
+color: #27AE60 ;
+font-size: 35px;
+margin-left: -110px;
+}
+
+
+/********main********/ 
+
+
+#icons2
+{
+display: flex;
+flex-direction: row;
+}
+
+/*****crane*****/
+
+#icon-crane
+{
+width: 300px;
+height: 400px;
+
+}
+
+#grey_wings:hover
+{
+transition:1s;
+fill:orange;
+transform rotate:15;
+stroke-width:24; 
+stroke:red;
+}
+
+.fly
+{
+margin-top: 10px;
+margin-left: 70px;
+color: blue;
+}
+
+/*******king *****/
+
+#king
+{
+margin-left: 100px;
+width: 300px;
+height: 300px;
+
+}
+
+
+.st88:hover
+{
+transition: 1s;
+fill:#FFFFFF;
+}
+
+.st00:hover
+{
+transition: 1s;
+fill:green;
+}
+
+.st11:hover
+{
+transition: 1s;
+fill:green;
+}
+	
+.st22:hover
+{
+transition: 1s;
+fill:#F0CE50;
+}
+
+.st33:hover
+{
+transition: 1s;
+fill:#F8DB53;
+}
+
+.st44:hover
+{
+transition: 1s;
+fill:#FFFFFF;
+}
+
+
+.king-chair
+{
+color: green;
+margin-top:330px;
+margin-left: 25px;
+}
+
+
+#icons2-1
+{
+display: flex;
+flex-direction: row;
+}
+
+/******seoul********/
+
+#seoul
+{
+width: 370px;
+padding-right: 60px;
+cursor: pointer;
+}
+
+
+/*****say my name*****/
+#soyoon
+{
+width: 600px;
+height: 400px;
+margin-top: 20px;
+}
+
+
+.st000:hover
+{
+fill:orange;
+stroke:#4CC0EF
+}
+
+
+/******map*****/
+
+#map
+{
+width: 160px;
+height: 190px;
+padding-right: 50px;
+margin-top: 50px;
+}
+
+.st0000:hover
+{
+fill:#D42027;
+stroke:#D42027;
+stroke-miterlimit:10;
+}
+
+.st2222:hover
+{
+fill:#2D2E82;
+stroke:#2D2E82;
+stroke-miterlimit:10;
+}
+
+#icons2-2
+{
+display: flex;
+flex-direction: row;
+}
+
+
+#korean
+{
+width: 250px;
+margin-left: 15px;
+padding-right: 70px;
+}
+
+
+/******taekwondo******/
+
+#taekwondo
+{
+width: 500px;
+}
+
+.st0:hover{fill:#FCCCBC}
+.st1:hover{fill:#B73125}
+.st2:hover{fill:#2B348F}
+.st3:hover{fill:#54B948}
+
